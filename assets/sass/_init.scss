@@ -2,9 +2,16 @@
 @import 'lib/bourbon/bourbon';
 @import 'lib/neat/neat-helpers';
 
-// Bourbon Overrides
+// Neat Overrides
+// @see http://thoughtbot.github.io/neat-docs/latest/#variable
+$visual-grid:						true;
+$responsive:						true;
+$grid-columns:					12;
+$max-width:							em(1200);
 
 // Define Breakpoints
+// @see http://thoughtbot.github.io/neat-docs/latest/#function
+
 
 // Import Neat
-@import 'lib/neat/neat'
+@import 'lib/neat/neat';
