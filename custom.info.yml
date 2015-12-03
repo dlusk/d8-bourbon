@@ -1,0 +1,13 @@
+# custom.info.yml
+name: Custom
+type: theme
+description: 'D8 theme using Bourbon and Neat.'
+core: 8.x
+base theme: false
+libraries:
+  - custom/global-styling
+regions:
+  navbar: 'Navigation'
+  content: Content # required
+  sidebar: 'Sidebar'
+  footer: 'Footer'

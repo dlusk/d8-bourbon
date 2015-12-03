@@ -1,0 +1,6 @@
+# custom.libraries.yml
+
+global-styling:
+  css:
+    theme:
+      assets/css/styles.css: {}
